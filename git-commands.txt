@@ -1,0 +1,13 @@
+git init ---> Initialize a Folder with git version control
+git add <File Name> ---> Add a file for git to track
+git add . ----> Add all the files for git to track
+git commit -m <Commit Message> ----> Commit / Save the changes
+
+
+
+--------------------------------
+git log ----> Shows history of the commits
+
+git checkout <commit hash> ----> Goes back and forth in the history to check the data present at that point of time
+ 
+git checkout <branch name> ---> Goes to the latest changes or the branch
