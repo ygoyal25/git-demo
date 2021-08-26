@@ -18,3 +18,11 @@ git remote add origin <repo link> ---> Adds a remote to the local git repo (crea
 git push origin master ---> Pushes the code to github or remote repo
 
 git clone <repo link> ----> copies the remote repo to local system
+
+
+Resolving conflicts
+---------------------------------
+git checkout <target branch> ---> checkout to branch where you want to merge your code
+git pull ---> pull the latest changes
+git checkout <source branch> --->  checkout to your source branch which you want to merge
+git merge <target-branch> ---> merge the target branch
