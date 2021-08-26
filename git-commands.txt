@@ -11,3 +11,10 @@ git log ----> Shows history of the commits
 git checkout <commit hash> ----> Goes back and forth in the history to check the data present at that point of time
  
 git checkout <branch name> ---> Goes to the latest changes or the branch
+
+
+---------------------------------
+git remote add origin <repo link> ---> Adds a remote to the local git repo (creates a link between your local and remote repo)
+git push origin master ---> Pushes the code to github or remote repo
+
+git clone <repo link> ----> copies the remote repo to local system
